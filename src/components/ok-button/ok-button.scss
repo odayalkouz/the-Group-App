@@ -10,7 +10,7 @@
     margin-left: auto;
     &:hover {
         transition-duration: 0.6s;
-        transform: rotate(180deg);
         transition-timing-function: linear;
+        background: linear-gradient(180deg, var(--clr-violet) 0%, var(--clr-pink) 100%);
     }
 }
