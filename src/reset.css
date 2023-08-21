@@ -5,7 +5,7 @@ html {
 body {
     -webkit-font-smoothing: antialiased;
     margin: 0;
-    background-image: url(https://as2.ftcdn.net/v2/jpg/04/64/29/57/1000_F_464295700_FBrzJ0qbAn73l2JhstoCgiGjeLfa80Ga.jpg);
+    background-image: url(./bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
