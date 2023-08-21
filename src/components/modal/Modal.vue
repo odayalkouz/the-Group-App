@@ -6,8 +6,8 @@
       h3.modal__title Weather Settings
       CloseButton.modal__close(@click="handleClose")
     .modal__content
-      List
       SearchBar(@handleSearch="handleSearch")
+      List
 </template>
 
 <script>
