@@ -8,16 +8,19 @@
     .modal__content
       SearchBar(@handleSearch="handleSearch")
       List
+      OkButton.modal__close(@click="handleClose")
 </template>
 
 <script>
 import { mapActions, mapGetters } from "vuex";
 import CloseButton from "@/components/close-button/CloseButton";
+import OkButton from "@/components/ok-button/OkButton";
 import SearchBar from "@/components/search-bar/SearchBar";
 import List from "@/components/list/List";
 
 export default {
   components: {
+    OkButton,
     CloseButton,
     SearchBar,
     List,
